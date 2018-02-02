@@ -1,0 +1,3 @@
+1.后缀名.apk改成压缩包后缀名，解压得到classes.dex文件，放到dex2jar-2.0目录下
+2.命令行输入命令dex2jar.bat classes.dex
+3.用jd-gui.exe打开得到的classes-dex2jar.jar文件
