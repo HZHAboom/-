@@ -1,5 +1,5 @@
 1.后缀名.apk改成压缩包后缀名，解压得到classes.dex文件，放到dex2jar-2.0目录下
-2.命令行输入命令dex2jar.bat classes.dex
+2.命令行输入命令dex2jar.bat classes.dex（mac下命令：sh d2j-dex2jar.sh classes.dex）
 3.用jd-gui.exe打开得到的classes-dex2jar.jar文件
 --------以上三步得到源码
 4.命令行输入命令 apktool_2.3.1.jar d xxx.apk可以得到xml文件
